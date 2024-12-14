@@ -1,6 +1,6 @@
 # Ex.06 Book Front Cover Page Design
 ## Date:
-
+2/12/2024
 ## AIM:
 To design a book front cover page using HTML and CSS.
 
@@ -31,9 +31,35 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Cover</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
 
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <img src="image.png" alt="Centered Image">
+</body>
+</html>
+```
 
 ## OUTPUT:
+
 
 
 ## RESULT:
